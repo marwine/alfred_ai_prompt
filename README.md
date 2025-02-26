@@ -16,7 +16,7 @@ Example: `ask gpt how do I center a div?`
 ## Configuration
 
 You can customize the services by setting the `SERVICES_JSON` environment variable in Alfred. Format:
-json
+```json
 [
   {
     "name": "Copilot",
@@ -44,6 +44,7 @@ json
     "urlTemplate": "https://chat.mistral.ai/chat?q=${prompt}"
   }
 ]
+```
 
 Each service requires:
 - `name`: Display name in Alfred
